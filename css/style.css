@@ -2,6 +2,7 @@ body, html {
   background-color: #EDEDED !important;
 }
 
+/* Main Banner */
 .intro {
   text-align: center;
   padding-top: 13%;
@@ -21,4 +22,30 @@ body, html {
   color: #333333;
   display: inline-block;
   font-size: 1.2rem;
+}
+
+/* About Me */
+.about .col {
+  margin-bottom: 24px;
+}
+
+.about h5 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.about h6 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.about hr {
+  width: 40px;
+  margin-bottom: 45px;
+}
+
+.about .card {
+  text-align: center;
 }
