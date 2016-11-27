@@ -86,3 +86,43 @@ body, html {
   display: inline-block;
   float: left;
 }
+
+/* Projects */
+/*img:hover{
+  color: blue;
+  background-color: #000;
+  border: solid 1px red;
+}
+
+.proyecto:hover, .proyecto:focus {
+  color: blue !important;
+  background-color: black !important;
+}*/
+.proyecto {
+  border: 5px solid black;
+}
+
+#humanize {
+  width: 319px;
+  height: 319px;
+  background-image: url("mangatar.png");
+}
+
+.proyecto:hover {
+  border: 1px solid red;
+  /*opacity: 0.3;
+  filter: alpha(opacity=30);*/
+  background: black;
+  color: red;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay:hover {
+
+  background-color: blue;
+  opacity: 0.5;
+}
