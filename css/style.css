@@ -105,7 +105,8 @@ body, html {
 #humanize {
   width: 319px;
   height: 319px;
-  background-image: url("mangatar.png");
+  background-image: url(../mangatar.png);
+  background-repeat: no-repeat;
 }
 
 .proyecto:hover {
